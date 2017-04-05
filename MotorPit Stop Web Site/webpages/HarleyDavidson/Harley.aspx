@@ -136,7 +136,7 @@ Availability: In Stock </b> <br />
 <input type="add" id="add" name="" value="Add to Cart">
 </div>
 </p>
-</div> 
-
+ 
+</div>
 </asp:Content>
 

@@ -8,29 +8,32 @@
 <div class="box">
 <p class="test">
 
-<h2>BMW F700GS</h2>
+<h2>Akrapovic Racing</h2>
 
 <a href="webpages/BMW/BMW.aspx">
-<img src="/Images/BMW/BMW-F700GS-2016.png" alt="BMW"></a>
+<img src="/Images/BMW/race system.png" alt="BMW"></a>
 </p>
 
 <p>
-Our high quality components in design, ergonomics, seat comfort improvements, aerodynamics. 
-The series of BMW accesories products.Please click on the image above to load the series on Products.
+Akrapovic Racing and Evolution systems are designed for riders who demand maximum performance from their motorcycle.<br />
+Product ID: 37678799 <br />
+Price: $1478.95
 </p>
 </div>
 
 <div class="box">
     <p class="test">
 
-    <h2>R1200GS</h2>
+    <h2>Akrapovic</h2>
 
     <a href="webpages/BMW/category.aspx">
-    <img src="/Images/BMW/BMW-R1200GS-2016.png" alt="BMW"></a>
+    <img src="/Images/BMW/akrapovic.png" alt="BMW"></a>
     </p>
 
     <p>
-        Make it uniquely yours by choosing from more than 10,000 motorcycle parts.
+        Make it uniquely yours by choosing from more than 10,000 motorcycle parts.<br />
+        Product ID: 8768757 <br />
+        Price: $478.95
         
     </p>
 </div>
@@ -64,8 +67,6 @@ The series of BMW accesories products.Please click on the image above to load th
      The series of BMW accesories products.Please click on the image above to load the series on Products.
     </p>
 </div>
-
-
 
 </asp:Content>
 

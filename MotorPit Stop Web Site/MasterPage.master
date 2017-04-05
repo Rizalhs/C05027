@@ -37,16 +37,19 @@
         
 
 <div class="sidebar">
-       <b><div class="topcat">Featured Products</b>
+       <b><div class="topcat">Categories</b>
         <div class="categories">
-            <b><a class="category" href="/webpages/BMW/Category.aspx">BMW</a></b>
-           <b><a class="category" href="/webpages/HarleyDavidson/Category.aspx">Harley Davidson</a></b>
-            <b><a class="category" href="/webpages/Honda/Category.aspx">Honda</a></b>
+            <b><a class="category" href="/webpages/BMW/Category.aspx">Exhaust</a></b>
+           <b><a class="category" href="/webpages/HarleyDavidson/Category.aspx">Performance</a></b>
+            <b><a class="category" href="/webpages/Honda/Category.aspx">Suspension</a></b>
+            <b><a class="category" href="/webpages/BMW/Category.aspx">Electrical</a></b>
+           <b><a class="category" href="/webpages/HarleyDavidson/Category.aspx">Lightning</a></b>
+            
         </div>
      </div>
-    <div class="topcat">Search Products
+    <b><div class="topcat">Models</b>
         <div class="categories">
-            <a class="category" href="/webpages/BMW/Category.aspx">BMW</a></b>
+            <a class="category" href="/webpages/BMW/Category.aspx">BMW</a>
             <a class="category" href="/webpages/HarleyDavidson/Category.aspx">Harley Davidson</a></b>
             <a class="category" href="/webpages/Honda/Category.aspx">Honda</a></b>
         </div>
