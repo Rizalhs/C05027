@@ -79,18 +79,23 @@ body {
     border-bottom-left-radius: 1em;
 }
 
-.topcat .category {
-    display: none;
-    padding-left: 8px;
+.topcat {
+    top: 100px;
+    position: relative;
 }
 
-.topcat:hover {
-    background-color: #aaa;
-}
-
-    .topcat:hover .category {
-        display: block;
+    .topcat .category {
+        display: none;
+        padding-left: 8px;
     }
+
+    .topcat:hover {
+        background-color: #aaa;
+    }
+
+        .topcat:hover .category {
+            display: block;
+        }
 
 .category:hover {
     background-color: green;
