@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+       
+
+    <head runat="server">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>MotorPit Stop Products</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+         
+    </asp:ContentPlaceHolder>
+
+</head>
+  
+<body>
+    
+<div id="container">
+
+<div class="header">
+    <div class="logo">
+        <img src="/Images/MPS_Icon.png" alt="logo" />
+        <strong>MOTORPIT STOP ONLINE</strong>
+    </div>
+</div>
+
+
+<div id="nav"> 
+  <ul>
+  <li><a href="/Default.aspx">Home</a></li>  
+  <li><a href="/webpages/Misc/contact.aspx">Contact Us</a></li> 
+  <li><a href="/webpages/Login/Login.aspx">Login</a></li>
+  </ul>     
+</div>          
+        
+
+<div class="sidebar">
+        <div class="topcat">Categories
+        <div class="categories">
+              <a class="category" href="/webpages/BMW/Category.aspx">Exhaust</a>
+              <a class="category" href="/webpages/HarleyDavidson/Category.aspx">Performance</a>
+              <a class="category" href="/webpages/Honda/Category.aspx">Suspension</a>
+              <a class="category" href="/webpages/BMW/Category.aspx">Electrical</a>
+              <a class="category" href="/webpages/HarleyDavidson/Category.aspx">Lightning</a>
+            
+        </div>
+     </div>
+        <div class="topcat">Models
+        <div class="categories">
+            <a class="category" href="/webpages/BMW/Category.aspx">BMW</a>
+            <a class="category" href="/webpages/HarleyDavidson/Category.aspx">Harley Davidson</a>
+            <a class="category" href="/webpages/Honda/Category.aspx">Honda</a>
+        </div>
+     </div>
+</div>
+
+
+<div class="main">
+    <asp:ContentPlaceHolder id="MainContent1" runat="server">
+    </asp:ContentPlaceHolder>
+</div> 
+
+<div class="footer">
+    <div class="links">
+        <a href="/webpages/Admin/product1.aspx">Admin Page</a>
+        <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+        
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+
+    </div>
+</div>
+       
+</div>
+     
+</body>
+</html>
